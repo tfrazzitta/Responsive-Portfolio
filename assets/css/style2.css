@@ -1,8 +1,9 @@
 body{
 	width:960px;
 	background: url(../images/cork-wallet.png);
-	
+
 }
+
 
 #tom{
 box-shadow:8px 8px 8px black;
@@ -26,7 +27,7 @@ nav  {
 	position:relative;
 	left:490px;
   	top:50px;
-  	display:inline-block;
+  	
 
 }
 
@@ -117,7 +118,7 @@ top: 70px;
 	background: url(../images/cork-wallet.png);
 	box-shadow:10px 10px 10px black;
 	position: relative;
-   text-align:center;
+    text-align:center;
 	}
 
 
@@ -297,3 +298,336 @@ footer{
 }
 
 
+
+
+
+
+@media screen and (max-width: 980px) {
+
+#main,#main2,#main3{
+	width:875px;
+	margin-left:30px;
+	padding-left:20px;
+}
+
+#main{height:700px;
+}
+
+#main2{height:2200px;}
+#inner,#inner2,#inner3{
+		width:500px;
+		margin-left:20px;	
+}
+
+
+
+#inner{height:600px;}
+#inner2{height:2100px;}
+
+#inner img{
+width:300px;
+height:300px;
+margin-left: 60px;
+}
+
+
+#inner2 a{
+margin:0px;
+clear:both;
+text-align: center;
+width:500px;
+height:500px;
+margin-top:20px;
+margin-bottom:-120px;
+
+}
+
+#inner2 img{
+	width:350px;
+	height:350px;
+	margin-left:-25px;
+
+	}
+
+
+h4{
+width:350px;
+height:60px;
+left:53px;
+line-height:50px;
+font-size:30px;
+top:-100px;
+}
+
+
+#text{
+	position:relative;
+	left:10px;
+	top:50px;
+}
+
+footer, #small{
+		width:875px;
+		margin-left:30px;
+		text-align:center;
+		padding-left:20px;
+}
+			
+
+nav{
+	left:375px;
+	
+}
+
+#tom{
+	margin-left:60px;
+}
+
+
+#message{width:450px;}
+#john{width:450px;}
+#example{width:450px;}
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+body{
+	width:768px;
+}
+
+
+#main,#main3,#main2{
+margin-left:70px;
+
+width:800px;
+
+	}
+#main{height:900px;}
+#main3{height:1100px;}
+#main2{height:2400px;}
+
+#inner{ height:500px; }
+#inner2{height:2100px;}
+
+
+
+	#inner,#inner3,#inner2{
+	margin:0px auto;
+	width:640px;
+	margin-left: 20px;
+	top:40px;
+	}
+	
+	#inner img{
+	width: 200px;
+	height:200px;
+
+}
+
+#inner2 img{
+	margin-left:80px;
+}
+
+h4{
+	left:105px;
+	}
+
+
+
+
+#text{
+	margin-left:-30px;
+}
+	
+	footer, #small{
+		width:768px;
+		margin-left: 0px;
+		text-align:center;
+			}
+
+#tom{
+	margin-left: 70px;
+}
+
+nav{
+	left:240px;
+	top:30px;
+}
+
+
+#connect img {
+	margin:3px;
+
+
+}
+
+#connect a{
+	margin-left: 10px;
+
+}
+#connect{
+	margin-left:20px;
+	clear:both;
+	width:680px;
+	text-align: left;
+	top:40px;
+
+}
+
+h2{
+text-align: left;
+margin-left: 20px;
+}
+
+
+#message{width:550px;}
+#john{width:550px;}
+#example{width:550px;}
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+
+	body{
+		width:640px;
+}
+		nav{
+	width:640px;
+	clear:both;
+}
+
+#tom{
+	width:640px;
+	margin-left: 0px;
+	
+	
+}
+
+#main,#main3,#main2{
+		width:640px;
+		margin-top:60px;
+		margin-left:0px;
+	
+	}
+#main{height:1150px;}
+#main2{
+	height:3200px;}
+
+#inner{height:800px;}
+#inner2{height:2900px;}
+
+	#inner,#inner3,#inner2{
+	width:565px;
+	top: -5px;
+	margin-top:30px;
+	right:20px;
+
+}
+
+#inner2 a{
+margin:25px;
+clear:both;
+text-align: center;
+width:500px;
+height:500px;
+margin-top:30px;
+
+
+}
+#inner2 img{
+	width:500px;
+	height:500px;
+	margin-left:-22px;
+	}
+
+h4{
+width:500px;
+height:60px;
+top:-100px;
+line-height:50px;
+font-size:30px;
+left:-22px;
+}
+
+
+#message{width:500px;}
+#john{width:500px;}
+#example{width:500px;}
+
+#connect{
+	width:580px;
+	margin-left:0px;
+	padding-left: 25px;
+	margin-top:0px;
+
+	
+
+}
+footer, #small{
+		
+	width:640px;
+		text-align:center;
+		
+			}
+
+h2{
+
+margin-left: 25px;
+
+}
+
+#connect img{
+	margin-left:20px;
+	margin-top: 0px;
+}
+
+
+nav a{
+margin:50px;
+font-size:20px;
+text-align: center;
+
+
+
+}
+
+nav{
+	text-align: left;
+	line-height: 0px;
+	margin-left:-200px;
+	top:40px;
+}
+
+#text{
+	position:relative;
+	height:565px;
+	top:50px;
+}
+#inner img{
+	height:500px;
+	width:500px;
+	margin-left: 0px;
+}
+}
+	
+	@media screen and (max-width: 450px) {
+
+body{
+	width:450px;
+}
+
+
+
+}
